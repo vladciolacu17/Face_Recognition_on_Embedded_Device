@@ -65,9 +65,6 @@ src/
 │
 ├── results_spain.csv
 └── results_spain_no_mtcnn.csv
-
-
-
 README.md
 LICENSE
 .gitignore
@@ -97,46 +94,38 @@ Installation
 ------------------------------------------------------------
 
 Clone the repository:
+```bash
 
 git clone https://github.com/vladciolacu17/Face_Recognition_on_Embedded_Device.git
-
+```
 Navigate to the project directory:
-
+```bash
 cd Face_Recognition_on_Embedded_Device
-
+```
 Install required dependencies:
-
+```bash
 pip install -r requirements.txt
-
-Typical dependencies include:
-
-numpy
-pandas
-Pillow
-torch
-torchvision
-facenet-pytorch
-
+```
 ------------------------------------------------------------
 Running the Project
 ------------------------------------------------------------
 
 Run the pipeline with face detection:
-
+```bash
 python src/face_rec_spain2.py
-
+```
 Run the pipeline without face detection:
-
+```bash
 python src/face_rec_spain_no_mtcnn.py
-
+```
 ------------------------------------------------------------
 Results
 ------------------------------------------------------------
 
 Recognition results are saved as CSV files:
 
-results_spain.csv
-results_spain_no_mtcnn.csv
+- results_spain.csv
+- results_spain_no_mtcnn.csv
 
 These files contain the predicted identity and similarity scores for each test image.
 
@@ -146,11 +135,11 @@ Future Improvements
 
 Possible improvements include:
 
-• real‑time webcam recognition
-• support for larger datasets
-• threshold for unknown identities
-• model optimization for faster inference
-• deployment in access control systems
+- real‑time webcam recognition
+- support for larger datasets
+- threshold for unknown identities
+- model optimization for faster inference
+- deployment in access control systems
 
 ------------------------------------------------------------
 Author
