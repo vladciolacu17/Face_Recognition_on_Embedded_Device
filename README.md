@@ -46,7 +46,7 @@ Raspberry Pi 4
 ------------------------------------------------------------
 Repository Structure
 ------------------------------------------------------------
-
+```
 src/
 │
 ├── dataset/
@@ -66,12 +66,13 @@ src/
 ├── results_spain.csv
 └── results_spain_no_mtcnn.csv
 
-Root directory:
-│
-├── README.md
-├── LICENSE
-└── .gitignore
 
+
+README.md
+LICENSE
+.gitignore
+requirements.txt
+```
 ------------------------------------------------------------
 Dataset Structure
 ------------------------------------------------------------
@@ -85,12 +86,12 @@ test/
     Images used for evaluation and recognition testing.
 
 Example:
-
+```
 dataset/
 └── Fernando_Alonso/
     ├── ref/
     └── test/
-
+```
 ------------------------------------------------------------
 Installation
 ------------------------------------------------------------
